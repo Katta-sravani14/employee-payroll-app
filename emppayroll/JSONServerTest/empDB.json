@@ -1,0 +1,31 @@
+{
+  "employees": [
+    {
+      "name": "mnb",
+      "profile": "../Assets/Ellipse-8.png",
+      "gender": "Male",
+      "department": "HR",
+      "salary": "387000",
+      "startdate": "1/Jan/2020",
+      "id": 1
+    },
+    {
+      "name": "Karthikey",
+      "profile": "../Assets/Ellipse-8.png",
+      "gender": "Male",
+      "department": "HR,Sales",
+      "salary": "400000",
+      "startdate": "15/Feb/2020",
+      "id": 4
+    },
+    {
+      "name": "omkar",
+      "profile": "../Assets/Ellipse-8.png",
+      "gender": "Male",
+      "department": "Finance,Others",
+      "salary": "400000",
+      "startdate": "14/Oct/2021",
+      "id": 5
+    }
+  ]
+}

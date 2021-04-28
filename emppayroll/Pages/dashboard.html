@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Payroll Details</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/dashboard.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:ital,wght@o, 100;0,200;0,300;0, 400;0,500;1,500&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="../JS/home.js"></script>
+</head>
+
+<body>
+    <header class="header-content">
+        <div class="logo-content">
+            <img src="../assets/images/logo.png" width=50px alt="Employee_Payroll_logo">
+            <div>
+                <span class="emp-text">EMPLOYEE</span><br>
+                <span class="emp-text emp-payroll">PAYROLL</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-content">
+        <div class="header-content">
+            <div class="emp-detail-text">
+                Employee Details
+            </div>
+            <div>
+                <a href="./employee-payroll-form.html" class="add-button">
+                    <img src="../assets/icons/add-24px.svg" alt="">
+                    Add User
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="table-main">
+        <table class="table" id="display">
+            <tr>
+                <th> </th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Department</th>
+                <th>Salary</th>
+                <th>StartDate</th>
+                <th>Actions</th>
+            </tr>
+            <tr>
+                <td><img class="profile" src="../assets/profile-images/Ellipse -3.png" alt=""></td>
+                <td>Steve</td>
+                <td>Male</td>
+                <td>
+                    <div class="emp-dept">HR</div>
+                    <div class="emp-dept">Finance</div>
+                </td>
+                <td>30000</td>
+                <td>1/Nov/2020</td>
+                <td>
+                    <img id="1" src="../assets/icons/delete-black-18dp.svg" alt="delete" onclick="remove(this)">
+                    <img id="1" src="../assets/icons/create-black-18dp.svg" alt="update" onclick="update(this)">
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
